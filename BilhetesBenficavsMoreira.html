@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content= 
+            "width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="Main.css"> 
+        <title>Benfica's Site</title> 
+    </head> 
+    
+    <body> 
+        <nav> 
+            <div class="heading">Pagina inicial</div> 
+            <span class="sideMenuButton"
+                onclick="openNavbar()"> 
+                ☰ 
+            </span>
+    
+            <div class="navbar"> 
+                <ul> 
+                    <li><a href="Main.html">Home</a></li> 
+                    <li><a href="Sobre.html">Sobre</a></li> 
+                    <li><a href="BilhetesBenficavsInter.html">Compra de bilhetes</a></li> 
+                </ul> 
+            </div> 
+        </nav> 
+        <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .ticket-form {
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0;
+        }
+
+        input[type="text"], input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Compra de Bilhetes - Benfica vs Moreirense</h1>
+    </header>
+
+    <div class="container">
+        <div class="ticket-form">
+            <h2>Selecione o número de bilhetes que deseja comprar</h2>
+            <form>
+                <label for="quantity">Quantidade de Bilhetes:</label>
+                <input type="number" id="quantity" name="quantity" min="1" value="1">
+                <br>
+                <button><a href="https://www.slbenfica.pt/loja/bilhetes/jogos/comprav2/pt-pt/evento/jqwyrjhqnnse"></a>Comprar Bilhetes</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
